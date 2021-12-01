@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/pelfusion/long-shadow-media/256/Calculator-icon.png" type="image/x-icon">
+    <title>somatório</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Somatório Online</h1>
+    </header>
+    <main>
+        <h2>Pode inserir os valores abaixo:</h2>
+        <input type="number" name="n1" id="n1">
+        <input type="number" name="n2" id="n2">
+        <input type="button" value="Somar" onclick="somar()">
+        <div id="soma">Resultado: </div>
+        
+        <script>
+            function somar() {
+                var tn1 = window.document.getElementById("n1");  
+                var tn2 = window.document.querySelector("input#n2");
+                var soma = window.document.getElementById("soma");
+                var n1_ = Number(tn1.value); 
+                var n2_ = Number(tn2.value); 
+                var s = n1_ + n2_; 
+                soma.innerHTML = `A soma entre ${n1_} e ${n2_} é igual a <strong>${s}</strong>`; 
+                soma.style.background = "#FFC95B";
+            }
+             
+        </script>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong><a href="https://github.com/MarcLipeSL20" target="_blank">Marcos Felipe S.L.</a></strong></p>
+    </footer>
+</body>
+</html>

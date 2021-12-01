@@ -1,0 +1,45 @@
+@charset "UTF-8"; 
+
+
+:root {
+    --color0: #7A7EBF; 
+    --color1: #263F8C; 
+    --color2: #84A9D9; 
+    --color3: #F2C49B;
+    --color4: #F26363;
+    
+    --font_padrão: Georgia, 'Times New Roman', Times, serif; 
+}
+
+body {
+    background-color: var(--color2);
+    font-family: var(--font_padrão);
+}
+
+
+header {
+    background-color: var(--color0);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.247);
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer {
+    background-color: var(--color0);
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    padding: 0px;
+    color: white;
+}
