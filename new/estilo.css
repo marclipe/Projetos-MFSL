@@ -52,7 +52,6 @@ main {
 div#ano {
     color: var(--color3);
     background-color: var(--color1);
-    border-radius: 10px;
     margin: left;
     padding: 15px;
 }
@@ -63,6 +62,12 @@ div#ano > p, h3 {
 
 div#photo {
     text-align: right;
+}
+
+div#res {
+    background-color: var(--color1);
+    color: var(--color3);
+    padding: 10px;
 }
 
 img {
