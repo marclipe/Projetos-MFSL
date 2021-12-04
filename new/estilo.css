@@ -47,16 +47,17 @@ main {
     padding: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 
-div#ano {
+div#tempo {
     color: var(--color3);
     background-color: var(--color1);
     margin: left;
     padding: 15px;
 }
 
-div#ano > p, h3 {
+div#tempo > p, h3 {
     padding: 10px;
 }
 
@@ -68,6 +69,7 @@ div#res {
     background-color: var(--color1);
     color: var(--color3);
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 img {
