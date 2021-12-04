@@ -1,12 +1,16 @@
 function carregar() {
-    var dat = new Date(); 
-    var ano = data.getFullYear(); 
-    var fano = document.getElementById('txtano'); 
-    var res = document.querySelector('div#res'); 
+    var tempo = new Date();
+    var ano = data.getTime; 
 
-    if (fano.value.length == 0 || Number(fano.value) > ano) {
-        window.alert("[ERRO] Verifique os dados e tente novamente!"); 
-    } else if () {
-        
+    if () {
+        window.alert('[ERRO] Verifique os dados e tente novamente!')
+    } else {
+
+        if () {
+
+        } else if () {
+
+        }
     }
+
 }
