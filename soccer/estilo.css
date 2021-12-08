@@ -50,14 +50,14 @@ main {
     text-align: center;
 }
 
-div#tempo {
+div#tempo_ {
     color: var(--color3);
     background-color: var(--color1);
     margin: left;
     padding: 15px;
 }
 
-div#tempo > p, h3 {
+div#tempo_ > p, h3 {
     padding: 10px;
 }
 
