@@ -9,13 +9,13 @@
 }
 
 body {
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     font-family: var(--minha-font);
 }
 
 
 header {
-    background-color: var(--cor1);
+    background-color: var(--cor);
 }
 
 header > h1 {
@@ -27,6 +27,8 @@ section {
     background-color: var(--cor2);
     margin: auto;
     padding: 20px;
+    width: 600px;
+    border-radius: 10px;
 }
 
 footer {

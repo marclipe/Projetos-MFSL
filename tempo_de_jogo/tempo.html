@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="style.css">
     <title>Tempo de jogo</title>
 </head>
-<body onload="work()">
+<body>
     <header>
-        <h1>Minutagem de jogo</h1>
+        <h1>Tempo de jogo</h1>
     </header>
     <section>
         <div id="msg">
-            Vai aparecer a mensagem...
+            <p>Minutagem do Jogo</p>
+            <input type="number" name="txttempo" id="txttempo" min="0">
+            <p>
+                <input type="button" value="Enviar" onclick="work()">
+            </p>
         </div>
         <div id="tempo">
-            Mensagem do tempo 
+            Preencha os dados acima por favor! 
         </div>
     </section>
     <footer>
-        <p>Criado por Marcos Felipe S.L.</p>
+        <p>&copy; Marcos Felipe S.L.</p>
     </footer>
     <script src="script.js"></script>
 </body>

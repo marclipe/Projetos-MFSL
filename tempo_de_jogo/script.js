@@ -1,17 +1,23 @@
 function work() {
-    var msg = window.document.getElementById('msg')
-    var tem = window.document.getElementById('tempo')
     var data = new Date()
     var min = data.getMinutes()
-    msg.innerHTML = `Agora são ${min} minutos!`
-    if(min >= 45){
+    var msg = window.document.getElementById('txttempo')
+    var tempo = window.document.getElementById('tempo')
+
+    var tpnome = document.getElementsByName('txttempo')
+                
+    if(msg >= 45){
         //Primeiro tempo 
         window.alert("Primeiro tempo!")
-    } else if (min < 45 && min >= 90) {
+    } else if (msg < 45 && msg >= 90) {
         //Segundo Tempo
         window.alert("Segundo tempo")
     } else {
         //Fim de jogo 
         window.alert("Fim de jogo BOBO")
     }
+
+    tempo.innerHTML = `Detectamos o tempo ${min}`  
+    tempo.style.background = '#002040'
+    tempo.style.color = '#FFFFFF'
 }
